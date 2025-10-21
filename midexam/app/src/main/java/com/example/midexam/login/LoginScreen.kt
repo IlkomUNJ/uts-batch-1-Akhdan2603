@@ -26,10 +26,8 @@ fun LoginScreen(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Text(text = "Aplikasi MVVM", style = MaterialTheme.typography.headlineLarge)
-        Spacer(modifier = Modifier.height(8.dp))
-        Text(text = "Login Screen", style = MaterialTheme.typography.titleMedium)
-        Spacer(modifier = Modifier.height(32.dp))
+        Text(text = "Login Screen", style = MaterialTheme.typography.headlineLarge)
+        Spacer(modifier = Modifier.height(20.dp))
 
         OutlinedTextField(
             value = state.username,
